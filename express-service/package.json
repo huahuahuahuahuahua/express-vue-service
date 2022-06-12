@@ -1,0 +1,24 @@
+{
+  "name": "express-stream-service",
+  "version": "1.0.0",
+  "description": "流媒体视频服务",
+  "author": "huawink",
+  "scripts": {
+    "start": "node ./app.js",
+    "debug": "nodemon --trace-warnings --inspect=0.0.0.0:9229 ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huawink/express-vue-service.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "~1.4.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
